@@ -1,18 +1,18 @@
 [gd_scene load_steps=4 format=3 uid="uid://csmc6kb6lqnmw"]
 
 [ext_resource type="Script" uid="uid://cvgovij0quhc5" path="res://Scence/pong_bar.gd" id="1_720bj"]
-[ext_resource type="Texture2D" uid="uid://n0nb04gygmlt" path="res://Asset/eraser.png" id="1_k1ung"]
+[ext_resource type="Texture2D" uid="uid://di5a7iuc6v0on" path="res://Asset/kenney_racing-pack/PNG/Cars/car_blue_1.png" id="2_720bj"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_720bj"]
-size = Vector2(80, 113.5)
+size = Vector2(64, 113.5)
 
 [node name="PongBar" type="Area2D"]
 script = ExtResource("1_720bj")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
-position = Vector2(-1, 17)
-scale = Vector2(0.898438, 1.78125)
-texture = ExtResource("1_k1ung")
+position = Vector2(-1, 14)
+scale = Vector2(0.898438, 0.885496)
+texture = ExtResource("2_720bj")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 position = Vector2(-1, 12.25)

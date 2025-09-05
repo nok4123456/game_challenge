@@ -1,14 +1,17 @@
 [gd_scene load_steps=3 format=3 uid="uid://h73akmntqrxl"]
 
-[ext_resource type="Texture2D" uid="uid://r7kknebmcusl" path="res://Asset/download.png" id="1_jthoo"]
+[ext_resource type="Texture2D" uid="uid://y1uxo36scgvw" path="res://Asset/33210.jpg" id="1_x4fch"]
 [ext_resource type="PackedScene" uid="uid://csmc6kb6lqnmw" path="res://Scence/PongBar.tscn" id="2_x4fch"]
 
 [node name="Arean" type="Node2D"]
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
-position = Vector2(575, 324)
-scale = Vector2(10.6816, 6.04102)
-texture = ExtResource("1_jthoo")
+position = Vector2(577.8, 322.563)
+scale = Vector2(0.199652, 0.170163)
+texture = ExtResource("1_x4fch")
 
 [node name="PongBar" parent="." instance=ExtResource("2_x4fch")]
-position = Vector2(43, 39)
+position = Vector2(109, 286)
+
+[node name="Camera2D" type="Camera2D" parent="."]
+position = Vector2(576, 322)
